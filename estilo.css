@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#root,html,body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+
+}
+main{
+    height: 100%;
+    
+}
+#imagem_arvore{
+    display: block;
+    margin: auto;
+    width: 500px;
+
+}
+#titulo_1{
+    text-align: center;
+    background-color: rgb(144, 230, 144);
+}
+#texto_1{
+    background-color: rgb(222, 248, 222);
+    display: flex;
+    text-align: center;
+
+}
+.rodape{
+    display: flex;
+    background-color: rgb(1, 53, 1);
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    font-size: 24px;
+    line-height: 5px;
+    width: 100vw;
+    padding: 20px;
+    
+}
+ul{
+    list-style: none;
+
+}
