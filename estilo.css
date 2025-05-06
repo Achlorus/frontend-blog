@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 #root,html,body{
     width: 100vw;
@@ -13,26 +14,47 @@ main{
     height: 100%;
     
 }
-#imagem_arvore{
+#imagem_tech{
     display: block;
     margin: auto;
-    width: 500px;
+    padding: 20px;
 
 }
+
+header{
+    background-color:#b682f1;
+    color:white;
+    text-align: end;
+    
+    
+
+}
+
+a:visited{
+    color: white;
+}
+a:hover{
+    color: purple;
+
+}
+
 #titulo_1{
     text-align: center;
-    background-color: rgb(144, 230, 144);
+    font-size: 3em;
 }
 #texto_1{
-    background-color: rgb(222, 248, 222);
+    background-color: rgb(214, 174, 241);
     display: flex;
     text-align: center;
-
+    padding: 20px;
+    width: 1200px;
+    margin: auto;
+    font-size: 20px;
 }
 .rodape{
     display: flex;
     background-color: rgb(1, 53, 1);
-    color: rgb(255, 255, 255);
+    color: rgb(250, 242, 242);
     justify-content: center;
     font-size: 24px;
     line-height: 5px;
