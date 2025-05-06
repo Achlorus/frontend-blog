@@ -25,9 +25,13 @@ header{
     background-color:#b682f1;
     color:white;
     text-align: end;
-    
+    font-family: Arial, Helvetica, sans-serif;
     
 
+}
+nav>ul>li{
+    display: inline;
+    font-size: 1.4em;
 }
 
 a:visited{
@@ -49,7 +53,7 @@ a:hover{
     padding: 20px;
     width: 1200px;
     margin: auto;
-    font-size: 20px;
+    font-size: 1.3em;
 }
 .rodape{
     display: flex;
