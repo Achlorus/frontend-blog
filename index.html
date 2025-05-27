@@ -4,19 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+    <link rel="stylesheet" href="mobile.css">
     <title>Site</title>
 </head>
-<body>
-    <script>
-        function hiddemenu(){
-            document.getElementById{header}
+<body onresize="phonePort()">
 
-        }
-    </script>
+    <script src="script.js"></script>
+
     <header>
         
         <h1 id="titulo_1">Portal Tech</h1>
-           <nav>
+         <div id="buttonsdiv">
+         <button class="buttons material-symbols-outlined" onclick="handleMenu()">menu</button>
+         </div>
+           <nav id="menu">
             <ul>
                 <li><a href="">Ínicio</a></li>
                 <li><a href="">Tópicos</a></li>
@@ -27,6 +29,7 @@
             </ul>
            </nav> 
     </header>
+
     <main>
         <div>
             <p id="texto_1">Desde que se tem conhecimento, a tecnologia vem auxiliando no desenrolar e avanço de nossa sociedade, seja ela implementada na transformação de uma cidade inteira ou uma simples modificação em uma aparato tecnológico utilizado no nosso dia a dia, tendo a mesma finalidade geral de facilitar nosso cotidiano e auxiliar no mesmo. E mesmo adquirindo a fama de extinguir algumas profissões e tornar alguns utensílios e invenções antepassadas obsoletos, ela vem se tornando importante em nossa sociedade e acaba por ser bem mais que isso, se mostrando cada vez mais efetivo, necessário e até mesmo indispensável no nosso ambiente pessoal, social e profissional.</p>
