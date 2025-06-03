@@ -87,3 +87,11 @@ ul{
     list-style: none;
 
 }
+/* centralizar input */
+#login{
+    background-color: #7825d6;
+    color: white;
+    display: block;
+    margin: auto;
+
+}
