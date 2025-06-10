@@ -4,20 +4,24 @@
     box-sizing: border-box;
     
 }
+
 #root,html,body{
     width: 100vw;
     height: 100vh;
     overflow: hidden;
 
 }
+
 main{
     height: 100%;
     
 }
+
 #imagem_tech{
     display: block;
     margin: auto;
     padding: 20px;
+    margin-bottom: 20px;
 
 }
 
@@ -29,6 +33,7 @@ header{
     
 
 }
+
 nav>ul>li{
     display: inline;
     font-size: 1.4em;
@@ -37,6 +42,7 @@ nav>ul>li{
 a:visited{
     color: white;
 }
+
 a:hover{
     color: purple;
 
@@ -46,6 +52,7 @@ a:hover{
     text-align: center;
     font-size: 3em;
 }
+
 #texto_1{
     background-color: rgb(214, 174, 241);
     display: flex;
@@ -53,6 +60,7 @@ a:hover{
     padding: 20px;
     width: 70vw;
     margin: auto;
+    margin-top: 20px;
     font-size: 1.3em;
 }
 
@@ -74,24 +82,47 @@ a:hover{
 
 .rodape{
     display: flex;
-    background-color: rgb(1, 53, 1);
+    background-color: #9f57f1;
     color: rgb(250, 242, 242);
-    justify-content: center;
-    font-size: 24px;
-    line-height: 5px;
+    justify-content: left;
+    padding: 10px;
+    padding-left: 50px;
+    font-size: 1.2em;
+    /* line-height: 5px; */
     width: 100vw;
-    padding: 20px;
-    
-}
-ul{
-    list-style: none;
 
+    position: absolute;
+    bottom: 0;
 }
+
+.rodape > ul > li > a{
+    display: flex;
+}
+
+#imagemGithub{
+    display: inline-block;
+    width: 30px;
+}
+
 /* centralizar input */
 #login{
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-top: 10px;
+    padding: 5px;
     background-color: #7825d6;
     color: white;
     display: block;
-    margin: auto;
+    text-align: center;
 
+}
+
+#loginbutton{
+     
+}
+
+h2  {
+    display: inline-block;
+    margin-top: 20px;
+    width: 200px;
 }
